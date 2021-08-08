@@ -1,10 +1,10 @@
 import React from "react";
 import styles from './main.module.scss'
-//import Particles from 'react-particles-js'
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from 'react-typing-effect';
 import photo from './../common/img/origineal.jpg'
 import {Link} from "react-scroll";
+import Particles from "react-particles-js";
 
 const Main = () => {
     const params = {
@@ -20,7 +20,7 @@ const Main = () => {
     }
     return (
         <main className={styles.mainBlock} id={"main"}>
-            {/*<Particles className={styles.particles} params={params}/>*/}
+            <Particles className={styles.particles} params={params}/>
             <div className="container">
                 <div className={`${"row align-items-center justify-content-around"} ${styles.row}`}>
                     <div className="col-lg-7 col-xl-6 col-md-10">
